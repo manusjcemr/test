@@ -1,0 +1,14 @@
+configName: default
+folderName: SMARTFARMING
+format_version: v1.0
+frameworkPath: ../../../../Harmony/v3.6.4
+processor: ATSAMC21J18A
+projectName: SMARTFARMING
+settings:
+  PackageFilter: aws_cloud;azure_rtos;bootloader;bsp;core;core_apps_sam_c20_c21;crypto;cryptoauthlib;csp;csp_apps_sam_c20_c21;dev_packs;gfx;gfx_apps;gfx_apps_sam_c20_c21;gfx_aria;mbed_os_rtos;mbed_os_rtos_apps;net;quick_docs;touch;usb;x2c
+  FORCE_OPTIMIZATION: 'false'
+  GENERATE_BACKUP: 'true'
+  TRUSTZONE: 'false'
+  CMSISPath: .\dev_packs\arm\CMSIS\5.8.0
+  MERGE_STRATEGY: USER_ALL
+  DFPPath: .\dev_packs\Microchip\SAMC21_DFP\3.5.95\samc21\atdf\ATSAMC21J18A.atdf
